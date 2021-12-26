@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,900&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width:0;
+  }
+
+  html{
+      scroll-behavior: smooth;
+      transition: 1s;
+  }
+
+body{
+ height: 300vh;
+}
+
+.site-logo{
+    width: 150px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.home{
+    background-image: url(../../vendor/img/bgshpe.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+}
+
+.about-text{
+    background-image: url(../../vendor/img/bg2.svg);
+    background-size: 100%;
+}
+
+.about{
+    background-color: #7e76f910;
+}
+
+.services{
+    background-image: url(../../vendor/img/bg2.svg);
+    background-size: 100%;
+
+}
+
+.card{
+    border-radius: 35px !important;
+    border: none !important;
+    
+}
+
+.card.h{
+    height: 420px;
+}
+
+.card-des{
+    height: 150px;
+}
+
+.about-card{
+    /* width: 300px !important;
+    margin-left: 200px; */
+}
+
+.pricing{
+    background-color: #7e76f915;
+}
+
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.slick-dots li{
+    width: 10px !important;
+    height: 10px !important;
+    border:2px solid  #7e76f9 !important;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active{
+    width: 15px !important;   
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: #7e76f9 !important;
+}
+
+/* a{
+    text-decoration: none !important;
+    color: white !important;
+    
+} */
+
+.footer{
+    
+    background-image: url(../../vendor/img/footer.svg),url(../../vendor/img/footer2.svg);
+    padding: 150px 0px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+
+
+.scroll-tonext{
+    position: absolute;
+    bottom: 50px;
+    margin: auto;
+    width: 50px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    border: 1px solid white;
+
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social-v{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 576px) {
+    .content2,.content-text-2{
+        width: 100% !important;
+    }
+}
